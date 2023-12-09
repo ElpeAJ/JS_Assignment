@@ -5,13 +5,14 @@
 
 function fiveNum(no1, no2, no3, no4, no5) {
   if (
-    typeof no1 === "Number" &&
-    typeof no2 === "Number" &&
-    typeof no3 === "Number" &&
-    typeof no4 === "Number" &&
-    typeof no4 === "Number"
+    typeof no1 === "number" &&
+    typeof no2 === "number" &&
+    typeof no3 === "number" &&
+    typeof no4 === "number" &&
+    typeof no5 === "number"
   ) {
     let result = ((no1 + no2 - no3) * no4) / no5;
+    console.log(`${no1} + ${no2} - ${no3} * ${no4} / ${no5} = `, (end = " "));
     return Math.floor(result);
   } else {
     console.log(`One or more of your five numbers is not valid `);
@@ -23,3 +24,5 @@ console.log(fiveNum(20, 40, 30, 50, 30));
 console.log(fiveNum(12, 14, 13, 15, 13));
 console.log(fiveNum(2, 4, 3, 0, 3));
 console.log(fiveNum("a", 4, 3, 0, 3));
+
+console.log(typeof 5);
