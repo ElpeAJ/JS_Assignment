@@ -22,3 +22,4 @@ console.log(fiveNum(2, 4, 3, 5, 3));
 console.log(fiveNum(20, 40, 30, 50, 30));
 console.log(fiveNum(12, 14, 13, 15, 13));
 console.log(fiveNum(2, 4, 3, 0, 3));
+console.log(fiveNum("a", 4, 3, 0, 3));
